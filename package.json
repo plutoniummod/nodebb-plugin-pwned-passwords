@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-pwned-passwords",
+  "version": "0.1.0",
+  "description": "Check passwords against the Pwned Passwords database.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plutoniummod/nodebb-plugin-pwned-passwords.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "passwords"
+  ],
+  "author": "Eldor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plutoniummod/nodebb-plugin-pwned-passwords/issues"
+  },
+  "homepage": "https://github.com/plutoniummod/nodebb-plugin-pwned-passwords#readme",
+  "nbbpm": {
+    "compatibility": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-nodebb": "^0.2.1",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2"
+  }
+}

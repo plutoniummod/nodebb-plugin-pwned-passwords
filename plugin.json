@@ -1,0 +1,9 @@
+{
+  "id": "nodebb-plugin-pwned-passwords",
+  "url": "https://github.com/plutoniummod/nodebb-plugin-pwned-passwords",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "filter:register.check", "method": "registerCheck" }
+  ],
+  "languages": "languages"
+}
