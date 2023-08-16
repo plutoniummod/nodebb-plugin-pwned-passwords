@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-pwned-passwords",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Check passwords against the Pwned Passwords database.",
   "main": "library.js",
   "repository": {
